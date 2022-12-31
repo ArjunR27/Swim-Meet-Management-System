@@ -1,0 +1,104 @@
+Psych Sheet: 
+
+Event: 50YDButterfly
+1) Jefferey Gotham AZSC 10.01
+2) Jefferey Gotham AZSC 10.01
+3) Jefferey Gotham AZSC 10.01
+4) Jefferey Gotham AZSC 10.01
+5) Tyler Stoen ASC 11.09
+6) Tyler Stoen ASC 11.09
+7) Tyler Stoen ASC 11.09
+8) Tyler Stoen ASC 11.09
+9) John Lewis ASC 13.01
+10) John Lewis ASC 13.01
+11) John Lewis ASC 13.01
+12) John Lewis ASC 13.01
+
+Event: 100YDButterfly
+1) Jeff Sparrow CPSC 54.99
+2) Jeff Sparrow CPSC 54.99
+3) Jeff Sparrow CPSC 54.99
+4) Jeff Sparrow CPSC 54.99
+5) Arjun Ranade CPSC 55.00
+6) Arjun Ranade CPSC 55.00
+7) Arjun Ranade CPSC 55.00
+8) Arjun Ranade CPSC 55.00
+9) Derek Lee CPSA 55.19
+10) Derek Lee CPSA 55.19
+11) Derek Lee CPSA 55.19
+12) Derek Lee CPSA 55.19
+
+Event: 200YDButterfly
+1) Arjun Ranade CPSC 2:00.69
+2) Arjun Ranade CPSC 2:00.69
+3) Arjun Ranade CPSC 2:00.69
+4) Arjun Ranade CPSC 2:00.69
+
+Event: 50YDBackstroke
+
+Event: 100YDBackstroke
+1) Arjun Ranade CPSC 54.06
+2) Arjun Ranade CPSC 54.06
+3) Arjun Ranade CPSC 54.06
+4) Arjun Ranade CPSC 54.06
+5) John Pog CPSC 1:00.09
+6) John Pog CPSC 1:00.09
+7) John Pog CPSC 1:00.09
+8) John Pog CPSC 1:00.09
+
+Event: 200YDBackstroke
+1) Michael Ding SCSC 2:02.21
+2) Michael Ding SCSC 2:02.21
+3) Michael Ding SCSC 2:02.21
+4) Michael Ding SCSC 2:02.21
+
+Event: 50YDBreaststroke
+1) Jerry Chu SCSC 16.21
+2) Jerry Chu SCSC 16.21
+3) Jerry Chu SCSC 16.21
+4) Jerry Chu SCSC 16.21
+
+Event: 100YDBreaststroke
+1) JJ Stoen ASC 59.81
+2) JJ Stoen ASC 59.81
+3) JJ Stoen ASC 59.81
+4) JJ Stoen ASC 59.81
+
+Event: 200YDBreaststroke
+1) Zach Apple TSC 2:21.98
+2) Zach Apple TSC 2:21.98
+3) Zach Apple TSC 2:21.98
+4) Zach Apple TSC 2:21.98
+
+Event: 50YDFreestyle
+
+Event: 100YDFreestyle
+1) Jeff Dog CPSC 56.78
+2) Hwan Cho CPSC NT
+
+Event: 200YDFreestyle
+1) Kelson Cantrell ALTO 1:44.41
+2) Kelson Cantrell ALTO 1:44.41
+3) Kelson Cantrell ALTO 1:44.41
+4) Kelson Cantrell ALTO 1:44.41
+
+Event: 500YDFreestyle
+1) Andy Cui ALTO 4:31.67
+2) Andy Cui ALTO 4:31.67
+3) Andy Cui ALTO 4:31.67
+4) Andy Cui ALTO 4:31.67
+
+Event: 1000YDFreestyle
+
+Event: 1650YDFreestyle
+
+Event: 100YDIM
+
+Event: 200YDIM
+
+Event: 400YDIM
+1) Colin Nguyen CPSC 4:12.78
+2) Colin Nguyen CPSC 4:12.78
+3) Colin Nguyen CPSC 4:12.78
+4) Colin Nguyen CPSC 4:12.78
+

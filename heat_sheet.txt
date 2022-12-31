@@ -1,0 +1,104 @@
+Heat Sheet: 
+
+Event: 50YDButterfly
+Jefferey Gotham AZSC 10.01 Heat: 1 Lane: 4
+Jefferey Gotham AZSC 10.01 Heat: 1 Lane: 5
+Jefferey Gotham AZSC 10.01 Heat: 1 Lane: 3
+Jefferey Gotham AZSC 10.01 Heat: 1 Lane: 6
+Tyler Stoen ASC 11.09 Heat: 1 Lane: 2
+Tyler Stoen ASC 11.09 Heat: 1 Lane: 7
+Tyler Stoen ASC 11.09 Heat: 1 Lane: 1
+Tyler Stoen ASC 11.09 Heat: 1 Lane: 8
+John Lewis ASC 13.01 Heat: 2 Lane: 4
+John Lewis ASC 13.01 Heat: 2 Lane: 5
+John Lewis ASC 13.01 Heat: 2 Lane: 3
+John Lewis ASC 13.01 Heat: 2 Lane: 6
+
+Event: 100YDButterfly
+Jeff Sparrow CPSC 54.99 Heat: 1 Lane: 4
+Jeff Sparrow CPSC 54.99 Heat: 1 Lane: 5
+Jeff Sparrow CPSC 54.99 Heat: 1 Lane: 3
+Jeff Sparrow CPSC 54.99 Heat: 1 Lane: 6
+Arjun Ranade CPSC 55.00 Heat: 1 Lane: 2
+Arjun Ranade CPSC 55.00 Heat: 1 Lane: 7
+Arjun Ranade CPSC 55.00 Heat: 1 Lane: 1
+Arjun Ranade CPSC 55.00 Heat: 1 Lane: 8
+Derek Lee CPSA 55.19 Heat: 2 Lane: 4
+Derek Lee CPSA 55.19 Heat: 2 Lane: 5
+Derek Lee CPSA 55.19 Heat: 2 Lane: 3
+Derek Lee CPSA 55.19 Heat: 2 Lane: 6
+
+Event: 200YDButterfly
+Arjun Ranade CPSC 2:00.69 Heat: 1 Lane: 4
+Arjun Ranade CPSC 2:00.69 Heat: 1 Lane: 5
+Arjun Ranade CPSC 2:00.69 Heat: 1 Lane: 3
+Arjun Ranade CPSC 2:00.69 Heat: 1 Lane: 6
+
+Event: 50YDBackstroke
+
+Event: 100YDBackstroke
+Arjun Ranade CPSC 54.06 Heat: 1 Lane: 4
+Arjun Ranade CPSC 54.06 Heat: 1 Lane: 5
+Arjun Ranade CPSC 54.06 Heat: 1 Lane: 3
+Arjun Ranade CPSC 54.06 Heat: 1 Lane: 6
+John Pog CPSC 1:00.09 Heat: 1 Lane: 2
+John Pog CPSC 1:00.09 Heat: 1 Lane: 7
+John Pog CPSC 1:00.09 Heat: 1 Lane: 1
+John Pog CPSC 1:00.09 Heat: 1 Lane: 8
+
+Event: 200YDBackstroke
+Michael Ding SCSC 2:02.21 Heat: 1 Lane: 4
+Michael Ding SCSC 2:02.21 Heat: 1 Lane: 5
+Michael Ding SCSC 2:02.21 Heat: 1 Lane: 3
+Michael Ding SCSC 2:02.21 Heat: 1 Lane: 6
+
+Event: 50YDBreaststroke
+Jerry Chu SCSC 16.21 Heat: 1 Lane: 4
+Jerry Chu SCSC 16.21 Heat: 1 Lane: 5
+Jerry Chu SCSC 16.21 Heat: 1 Lane: 3
+Jerry Chu SCSC 16.21 Heat: 1 Lane: 6
+
+Event: 100YDBreaststroke
+JJ Stoen ASC 59.81 Heat: 1 Lane: 4
+JJ Stoen ASC 59.81 Heat: 1 Lane: 5
+JJ Stoen ASC 59.81 Heat: 1 Lane: 3
+JJ Stoen ASC 59.81 Heat: 1 Lane: 6
+
+Event: 200YDBreaststroke
+Zach Apple TSC 2:21.98 Heat: 1 Lane: 4
+Zach Apple TSC 2:21.98 Heat: 1 Lane: 5
+Zach Apple TSC 2:21.98 Heat: 1 Lane: 3
+Zach Apple TSC 2:21.98 Heat: 1 Lane: 6
+
+Event: 50YDFreestyle
+
+Event: 100YDFreestyle
+Jeff Dog CPSC 56.78 Heat: 1 Lane: 4
+Hwan Cho CPSC NT Heat: 1 Lane: 5
+
+Event: 200YDFreestyle
+Kelson Cantrell ALTO 1:44.41 Heat: 1 Lane: 4
+Kelson Cantrell ALTO 1:44.41 Heat: 1 Lane: 5
+Kelson Cantrell ALTO 1:44.41 Heat: 1 Lane: 3
+Kelson Cantrell ALTO 1:44.41 Heat: 1 Lane: 6
+
+Event: 500YDFreestyle
+Andy Cui ALTO 4:31.67 Heat: 1 Lane: 4
+Andy Cui ALTO 4:31.67 Heat: 1 Lane: 5
+Andy Cui ALTO 4:31.67 Heat: 1 Lane: 3
+Andy Cui ALTO 4:31.67 Heat: 1 Lane: 6
+
+Event: 1000YDFreestyle
+
+Event: 1650YDFreestyle
+
+Event: 100YDIM
+
+Event: 200YDIM
+
+Event: 400YDIM
+Colin Nguyen CPSC 4:12.78 Heat: 1 Lane: 4
+Colin Nguyen CPSC 4:12.78 Heat: 1 Lane: 5
+Colin Nguyen CPSC 4:12.78 Heat: 1 Lane: 3
+Colin Nguyen CPSC 4:12.78 Heat: 1 Lane: 6
+

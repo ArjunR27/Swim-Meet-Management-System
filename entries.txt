@@ -62,3 +62,5 @@
 100YDBreaststroke JJ Stoen ASC 59.81
 200YDBreaststroke Zach Apple TSC 2:21.98
 200YDButterfly Arjun Ranade CPSC 2:00.69
+100YDFreestyle Hwan Cho CPSC NT
+100YDFreestyle Jeff Dog CPSC 56.78

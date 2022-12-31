@@ -1,3 +1,6 @@
+from psych_sheet import *
+
+
 class HeatSheet:
 
     # Read from the psych_sheet text file, allowing for the ranking to be seen
@@ -41,7 +44,7 @@ class HeatSheet:
                 out_file.write('Event: ' + event + '\n')
                 n_list = self.dict_of_events[event]
                 # Sorts the list within each event by the lane number
-                #n_list.sort(key=lambda x:x[6])
+                # n_list.sort(key=lambda x:x[6])
                 for person in n_list:
                     out_file.write(
                         person[1] + ' ' + person[2] + ' ' + person[3] + ' ' + person[4] + ' ' + 'Heat: ' + str(
