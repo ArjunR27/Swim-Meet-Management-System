@@ -73,8 +73,9 @@ Zach Apple TSC 2:21.98 Heat: 1 Lane: 6
 Event: 50YDFreestyle
 
 Event: 100YDFreestyle
-Jeff Dog CPSC 56.78 Heat: 1 Lane: 4
-Hwan Cho CPSC NT Heat: 1 Lane: 5
+Hugh Pough JFSC 51.23 Heat: 1 Lane: 4
+Jeff Dog CPSC 56.78 Heat: 1 Lane: 5
+Hwan Cho CPSC NT Heat: 1 Lane: 3
 
 Event: 200YDFreestyle
 Kelson Cantrell ALTO 1:44.41 Heat: 1 Lane: 4

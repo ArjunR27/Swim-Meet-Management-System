@@ -22,6 +22,8 @@ class PsychSheet:
             for line in in_file:
                 line_list = line.split()
                 event, f_name, l_name, team, seed_time = line_list[0], line_list[1], line_list[2], line_list[3], line_list[4]
+                # If the entry time is set as 'NT' set it to an arbitrary time which is very large as to correct the
+                # ordering
                 if 'NT' in seed_time:
                     seed_time = self.get_seconds('90:00.00')
                 elif ':' in seed_time:
@@ -45,6 +47,7 @@ class PsychSheet:
                 out_file.write('\n')
 
     def create_psych_sheet(self, output):
+        # Creates the psych sheet, and writes to a python text file
         with open(output, 'w') as out_file:
             out_file.write('Psych Sheet: ' + '\n\n')
             count = 0
@@ -60,21 +63,28 @@ class PsychSheet:
 
     @staticmethod
     def get_seconds(time):
+        # Converts the time format into a seconds representation of that time
         # gets the seconds for a time format in the form 00:00.00
+        minutes = ''
+        sec = ''
+        milli = ''
         if len(time) < 8:
-            min = time[0]
+            minutes = time[0]
             sec = time[2:4]
             milli = time[5:]
         elif len(time) == 8:
-            min = time[0:2]
+            minutes = time[0:2]
             sec = time[3:5]
             milli = time[6:]
-        return_time = 60 * float(min) + float(sec) + (float(milli) / 100)
+        return_time = 60 * float(minutes) + float(sec) + (float(milli) / 100)
         return round(float(return_time), 2)
 
     @staticmethod
     def reformat_to_time(time):
-        print(time)
+        # Reformat the seconds representation of the time into a minutes:seconds.milliseconds representation
+        # time = '5400.0' is the default time that is set if someone is given an entry time of 'NT this feature is
+        # implemented due to the fact that the ordering of the psych/heat sheet is based upon floating point numbers
+        # since the entry 'NT' is a string, convert it into the floating point representation of a large time (90:00.00)
         if time == '5400.0':
             return 'NT'
         else:

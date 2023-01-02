@@ -73,8 +73,9 @@ Event: 200YDBreaststroke
 Event: 50YDFreestyle
 
 Event: 100YDFreestyle
-1) Jeff Dog CPSC 56.78
-2) Hwan Cho CPSC NT
+1) Hugh Pough JFSC 51.23
+2) Jeff Dog CPSC 56.78
+3) Hwan Cho CPSC NT
 
 Event: 200YDFreestyle
 1) Kelson Cantrell ALTO 1:44.41
