@@ -7,8 +7,8 @@ class Tester:
         p = psych_sheet.PsychSheet()
         p.parser('entries.txt')
         p.create_psych_sheet('psych_sheet.txt')
-        p.create_simple_psych('example_simple_out.txt')
+        p.create_simple_psych('example_simple_out.xlsx')
 
         hs = heat_sheet.HeatSheet()
         hs.parser('example_simple_out.txt')
-        hs.create_heat_sheet('heat_sheet.txt')
+        hs.create_heat_sheet('heat_sheet.xlsx')
