@@ -1,5 +1,5 @@
 import time
-
+from openpyxl import Workbook
 
 class PsychSheet:
     def __init__(self):
@@ -38,28 +38,73 @@ class PsychSheet:
                 n_list.sort(key=lambda x: x[4])
 
     def create_simple_psych(self, output):
-        with open(output, 'w') as out_file:
-            for event in psych_sheet.dict_of_events:
-                n_list = psych_sheet.dict_of_events[event]
-                for person in n_list:
-                    out_file.write(person[0] + ' ' + person[1] + ' ' + person[2] + ' ' + person[3] + ' ' + self.reformat_to_time(
-                        str(person[4])) + '\n')
-                out_file.write('\n')
+        workbook = Workbook()
+        sheet = workbook.active
+        sheet.title = "Psych Sheet Simple"
+
+        row = 1
+        for event in psych_sheet.dict_of_events:
+            n_list = psych_sheet.dict_of_events[event]
+            for person in n_list:
+                sheet.cell(row=row, column=1, value=event)
+                sheet.cell(row=row, column=2, value=person[1])
+                sheet.cell(row=row, column=3, value=person[2])
+                sheet.cell(row=row, column=4, value=person[3])
+                sheet.cell(row=row, column=5, value=self.reformat_to_time(str(person[4])))
+                row += 1
+            row += 1
+
+            workbook.save(output)
+
+        #with open(output, 'w') as out_file:
+         #   for event in psych_sheet.dict_of_events:
+          #      n_list = psych_sheet.dict_of_events[event]
+          #      for person in n_list:
+          #          out_file.write(person[0] + ' ' + person[1] + ' ' + person[2] + ' ' + person[3] + ' ' + self.reformat_to_time(
+           #             str(person[4])) + '\n')
+            #    out_file.write('\n')
 
     def create_psych_sheet(self, output):
-        # Creates the psych sheet, and writes to a python text file
-        with open(output, 'w') as out_file:
-            out_file.write('Psych Sheet: ' + '\n\n')
+        workbook = Workbook()
+        sheet = workbook.active
+        sheet.title = "Psych Sheet"
+        row = 1
+        sheet.cell(row=row, column=1, value = "Psych Sheet: ")
+        row += 2
+
+        for event in psych_sheet.dict_of_events:
+            sheet.cell(row=row, column=1, value = "Event:")
+            sheet.cell(row=row, column=2, value=event)
+            row += 1
+
+            n_list = psych_sheet.dict_of_events[event]
             count = 0
-            for event in psych_sheet.dict_of_events:
-                out_file.write('Event: ' + event + '\n')
-                n_list = psych_sheet.dict_of_events[event]
-                for person in n_list:
-                    count += 1
-                    out_file.write(str(count) + ')' + ' ' + person[1] + ' ' +
-                                   person[2] + ' ' + person[3] + ' ' + self.reformat_to_time(str(person[4])) + '\n')
-                out_file.write('\n')
-                count = 0
+            for person in n_list:
+                count += 1
+                sheet.cell(row=row, column=1, value = str(count) + ')')
+                sheet.cell(row=row, column=2, value=person[1])
+                sheet.cell(row=row, column=3, value=person[2])
+                sheet.cell(row=row, column=4, value=person[3])
+                sheet.cell(row=row, column=5, value=self.reformat_to_time(str(person[4])))
+                row += 1
+
+            row += 1
+
+        workbook.save(output)
+        # Creates the psych sheet, and writes to a python text file
+        # with open(output, 'w') as out_file:
+
+            # out_file.write('Psych Sheet: ' + '\n\n')
+            # count = 0
+            # for event in psych_sheet.dict_of_events:
+                # out_file.write('Event: ' + event + '\n')
+                # n_list = psych_sheet.dict_of_events[event]
+                # for person in n_list:
+                    # count += 1
+                    # out_file.write(str(count) + ')' + ' ' + person[1] + ' ' +
+                                   # person[2] + ' ' + person[3] + ' ' + self.reformat_to_time(str(person[4])) + '\n')
+                # out_file.write('\n')
+                # count = 0
 
     @staticmethod
     def get_seconds(time):
@@ -68,6 +113,8 @@ class PsychSheet:
         minutes = ''
         sec = ''
         milli = ''
+        # Checks if the time is either in the double digits or single digits
+        # EX: 10:00.00 or 9:00.00 have different string lengths
         if len(time) < 8:
             minutes = time[0]
             sec = time[2:4]
@@ -102,7 +149,7 @@ class PsychSheet:
 st = time.time()
 p = PsychSheet()
 p.parser('entries.txt')
-p.create_psych_sheet('psych_sheet.txt')
-p.create_simple_psych('example_simple_out.txt')
+p.create_psych_sheet('psych_sheet.xlsx')
+p.create_simple_psych('simple_psych_sheet.xlsx')
 end = time.time()
 print(end - st)
